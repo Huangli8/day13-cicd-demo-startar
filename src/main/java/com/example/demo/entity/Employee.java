@@ -7,6 +7,7 @@ import jakarta.persistence.*;
 public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    //wwww
     private Integer id;
     private String name;
     private Integer age;
